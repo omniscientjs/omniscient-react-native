@@ -1,0 +1,44 @@
+{
+  "name": "omniscient-react-native",
+  "version": "1.0.0",
+  "description": "Example showing how to use react native with omniscient",
+  "dependencies": {
+    "babel": "^5.8.3",
+    "babel-core": "^5.8.3",
+    "babel-loader": "^5.3.2",
+    "immstruct": "^2.0.0",
+    "omniscient": "git://github.com/omniscientjs/omniscient#react-native",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.8",
+    "react-native": "^0.8.0",
+    "react-native-webpack-server": "^0.2.3",
+    "redux": "^1.0.0-rc",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "scripts": {
+    "start": "node ./node_modules/.bin/react-native-webpack-server start",
+    "watch": "HOT=1 node ./node_modules/.bin/react-native-webpack-server start --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omniscient/omniscient-react-native"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "omniscient",
+    "immstruct",
+    "es6",
+    "starter",
+    "pack",
+    "webpack",
+    "hot-reload"
+  ],
+  "author": "@torgeir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omniscient/omniscient-react-native/issues"
+  },
+  "homepage": "https://github.com/omniscient/omniscient-react-native"
+}
