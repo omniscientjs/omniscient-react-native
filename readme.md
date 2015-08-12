@@ -18,3 +18,7 @@ Run
 Hit the play button in XCode
 
 Once in the simulator you get a TypeError, hit Cmd + D -> Debug in Chrome to resolve it
+
+---
+
+Hard work credits goes to [@mjohnston](https://github.com/mjohnston/react-native-webpack-server)!
